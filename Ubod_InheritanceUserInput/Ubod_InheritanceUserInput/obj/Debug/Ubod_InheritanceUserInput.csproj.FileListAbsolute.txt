@@ -1,0 +1,7 @@
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\bin\Debug\Ubod_InheritanceUserInput.exe.config
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\bin\Debug\Ubod_InheritanceUserInput.exe
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\bin\Debug\Ubod_InheritanceUserInput.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\obj\Debug\Ubod_InheritanceUserInput.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\obj\Debug\Ubod_InheritanceUserInput.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\obj\Debug\Ubod_InheritanceUserInput.exe
+C:\Users\niccu\source\repos\OOP\Ubod_InheritanceUserInput\Ubod_InheritanceUserInput\obj\Debug\Ubod_InheritanceUserInput.pdb
