@@ -1,7 +1,0 @@
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\bin\Debug\Ubod_OOP.exe.config
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\bin\Debug\Ubod_OOP.exe
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\bin\Debug\Ubod_OOP.pdb
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\obj\Debug\Ubod_OOP.csproj.AssemblyReference.cache
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\obj\Debug\Ubod_OOP.csproj.CoreCompileInputs.cache
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\obj\Debug\Ubod_OOP.exe
-C:\Users\niccu\source\repos\OOP\Ubod_OOP\Ubod_OOP\obj\Debug\Ubod_OOP.pdb
