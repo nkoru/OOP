@@ -1,0 +1,8 @@
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\bin\Debug\Ubod_BasicPolymorphism.exe.config
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\bin\Debug\Ubod_BasicPolymorphism.exe
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\bin\Debug\Ubod_BasicPolymorphism.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\obj\Debug\Ubod_BasicPolymorphism.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\obj\Debug\Ubod_BasicPolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\obj\Debug\Ubod_BasicPolymorphism.exe
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\obj\Debug\Ubod_BasicPolymorphism.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_BasicPolymorphism\Ubod_BasicPolymorphism\obj\Debug\Ubod_BasicPolymorphism.exe.config
