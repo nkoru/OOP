@@ -1,0 +1,7 @@
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\bin\Debug\Ubod_AbstractionUserInput.exe.config
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\bin\Debug\Ubod_AbstractionUserInput.exe
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\bin\Debug\Ubod_AbstractionUserInput.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\obj\Debug\Ubod_AbstractionUserInput.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\obj\Debug\Ubod_AbstractionUserInput.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\obj\Debug\Ubod_AbstractionUserInput.exe
+C:\Users\niccu\source\repos\OOP\Ubod_AbstractionUserInput\Ubod_AbstractionUserInput\obj\Debug\Ubod_AbstractionUserInput.pdb
