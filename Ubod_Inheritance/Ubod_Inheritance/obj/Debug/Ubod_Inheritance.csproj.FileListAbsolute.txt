@@ -1,0 +1,8 @@
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\bin\Debug\Ubod_Inheritance.exe.config
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\bin\Debug\Ubod_Inheritance.exe
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\bin\Debug\Ubod_Inheritance.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\obj\Debug\Ubod_Inheritance.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\obj\Debug\Ubod_Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\obj\Debug\Ubod_Inheritance.exe
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\obj\Debug\Ubod_Inheritance.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_Inheritance\Ubod_Inheritance\obj\Debug\Ubod_Inheritance.exe.config
