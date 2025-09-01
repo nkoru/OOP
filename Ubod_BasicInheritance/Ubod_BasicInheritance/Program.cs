@@ -10,23 +10,30 @@ namespace Ubod_BasicInheritance
     {
         // Name: Beatrice Nicole Ubod
         // Section: IT306
-        // Exercise: Inheritance with Shirt and PoloShirt Classes
+        // Exercise: Simple Inheritance
 
         static void Main(string[] args)
         {
-            // Instantiate and set properties directly
-            PoloShirt myPolo = new PoloShirt()
+            RegularStudent regularStudent = new RegularStudent //Create an instance of the RegularStudent Class
             {
-                Brand = "Adidas",
-                Size = "L",
-                HasCollar = true
+                Name = "Monalesa Salipot",
+                Program = "BSIT",
+                Section = "IT306"
             };
+            Console.WriteLine("\n---- Regular Student ----\n"); 
+            regularStudent.BasicInfo(); // Call inherited method to display Student Info
+            regularStudent.SectionEnrolled(); // Call method to display Regular Student Details
 
-            // Display the details
-            myPolo.DisplayInformation();
+            IrregularStudent irregularStudent = new IrregularStudent //Create another instance for the IrregularStudent Class
+            {
+                Name = "Jane Ann Tabanas",
+                Program = "BSTM",
+                UnitsEnrolled = "18 Units"
+            };
+            Console.WriteLine("\n---- Irregular Student ----\n");
+            irregularStudent.BasicInfo();
+            irregularStudent.EnrolledSemUnits();
 
-            // Wait for user to press a key before closing
-            Console.Write("\nPress any key to exit...");
             Console.ReadKey();
         }
     }

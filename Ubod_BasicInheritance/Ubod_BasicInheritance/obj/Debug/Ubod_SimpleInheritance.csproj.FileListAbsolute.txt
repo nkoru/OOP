@@ -1,0 +1,8 @@
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\obj\Debug\Ubod_SimpleInheritance.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\obj\Debug\Ubod_SimpleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\obj\Debug\Ubod_BasicInheritance.exe
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\obj\Debug\Ubod_BasicInheritance.pdb
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\bin\Debug\Ubod_BasicInheritance.exe.config
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\bin\Debug\Ubod_BasicInheritance.exe
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\bin\Debug\Ubod_BasicInheritance.pdb
+C:\Users\ACT-STUDENT\Source\Repos\OOP\Ubod_BasicInheritance\Ubod_BasicInheritance\obj\Debug\Ubod_BasicInheritance.exe.config
