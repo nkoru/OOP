@@ -57,22 +57,21 @@ namespace Ubod_InheritanceUserInput
     class Tshirt : Shirt
     {
         //Additional property for the Tshirt Class
-        public bool CloseNeck { get; set; }
-        public bool VNeck { get; set; }
-
-        public Tshirt (string shirtBrand, string shirtSize, bool closeNeck, bool vNeck) : base (shirtBrand, shirtSize)
+        public string NeckType { get; set; } //"Round" or "V-neck"
+        public bool HasPocket { get; set; }
+    
+        public Tshirt (string shirtBrand, string shirtSize, string neckType, bool hasPocket) : base (shirtBrand, shirtSize)
         {
-            CloseNeck = closeNeck;
-            VNeck = vNeck;
+            NeckType = neckType;
+            HasPocket = hasPocket;
         }
-
+    
         //Method used to display Tshirt details
         public void TShirtDetails()
         {
             base.DisplayInformation();
-            Console.WriteLine($"Close Neck: {(CloseNeck ? "Yes" : "No")}");
-
-            Console.WriteLine($"Vneck: {(VNeck ? "Short" : "Long")}");
+            Console.WriteLine($"Neck Type: {NeckType}");
+            Console.WriteLine($"Has Pocket: {(HasPocket ? "Yes" : "No")}");
         }
     }
 }
