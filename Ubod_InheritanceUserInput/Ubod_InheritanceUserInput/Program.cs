@@ -10,43 +10,58 @@ namespace Ubod_InheritanceUserInput
     {
         // Name: Beatrice Nicole Ubod
         // Section: IT306
-        // Exercise: Inheritance with Shirt and PoloShirt Classes (User Input)
+        // Exercise: Inheritance with User Input
 
         static void Main(string[] args)
         {
         Main:
             Console.Clear();
-            Console.WriteLine("\tPolo Shirt Information Input");
+            Console.Write("Chooose the type of shirt (1 for Polo Shirt, 2 for Tshirt): ");
+            string choice = Console.ReadLine();  
 
-            Console.Write("\nEnter the brand of the shirt: ");
-            string brandInput = Console.ReadLine();
-
-            Console.Write("Enter the size of the shirt: ");
-            string sizeInput = Console.ReadLine();
-
-            Console.Write("Does it have a collar? (y/n): ");
-            string collarInput = Console.ReadLine().ToLower();
-
-            bool hasCollar;
-            if (collarInput == "y")
-                hasCollar = true;
-            else if (collarInput == "n")
-                hasCollar = false;
-            else
+            if (choice == "1")
             {
-                Console.WriteLine("\nInvalid input for collar. Please enter 'y' or 'n'.");
-                Console.ReadKey();
-                goto Main;
+                Console.Clear();
+                Console.WriteLine("\tPolo Shirt Input");
+
+                Console.Write("\nEnter the brand of Polo Shirt: ");
+                string brand = Console.ReadLine();
+
+                Console.Write("Enter the size of the Polo Shirt: ");
+                string size = Console.ReadLine();
+
+                Console.Write("Does Polo Shirt have a collar? (yes/no): ");
+                bool hasCollar = Console.ReadLine().ToLower() == "true";
+
+                Console.Write("Enter sleeve lngth of Polo Shirt? (short/long): ");
+                bool sleeveLength = Console.ReadLine().ToLower() == "short";
+
+                PoloShirt myPolo = new PoloShirt(brand, size, hasCollar, sleeveLength);
+                Console.WriteLine("\nPolo Shirt Details");
+                myPolo.PoloShirtDetails();
             }
 
-            PoloShirt myPolo = new PoloShirt()
+            if (choice == "2")
             {
-                Brand = brandInput,
-                Size = sizeInput,
-                HasCollar = hasCollar
-            };
+                Console.Clear();
+                Console.WriteLine("\tPolo Shirt Input");
 
-            myPolo.DisplayInformation();
+                Console.WriteLine("Enter the brand of TShirt: ");
+                string brand = Console.ReadLine();
+
+                Console.Write("Enter the size of the Polo Shirt: ");
+                string size = Console.ReadLine();
+
+                Console.Write("Does Polo Shirt have a collar? (yes/no): ");
+                bool closeNeck = Console.ReadLine().ToLower() == "true";
+
+                Console.Write("Enter sleeve lngth of Polo Shirt? (yes/no): ");
+                bool vNeck = Console.ReadLine().ToLower() == "true";
+
+                Tshirt myTshirt = new Tshirt (brand, size, closeNeck, vNeck);
+                Console.WriteLine("\nTShirt Details");
+                myTshirt.TShirtDetails();
+            }
 
             Console.Write("\nDo you want to enter another Polo Shirt? (y/n): ");
             char answer = Console.ReadKey().KeyChar;
