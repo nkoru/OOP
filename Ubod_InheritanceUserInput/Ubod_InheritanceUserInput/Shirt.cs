@@ -8,6 +8,7 @@ namespace Ubod_InheritanceUserInput
 {
     internal class Shirt
     {
+        //Fields for the Base (Shirt) Class
         public string brand;
         public string size;
 
@@ -17,7 +18,7 @@ namespace Ubod_InheritanceUserInput
             size = shirtSize;
         }
 
-        public void DisplayInformation()
+        public void DisplayInformation() //Method to display Shirt Details
         {
             Console.Clear();
             Console.WriteLine(Environment.NewLine);
@@ -31,15 +32,18 @@ namespace Ubod_InheritanceUserInput
     // Derived class PoloShirt inherits Shirt
     class PoloShirt : Shirt
     {
+        //Additional property for the PoloShirt Class
         public bool HasCollar { get; set; }
         public bool SleeveLength { get; set; }
 
+        //Constructor
         public PoloShirt (string shirtBrand, string shirtSize, bool hasCollar, bool sleeveLength) : base (shirtBrand, shirtSize) 
         {
             HasCollar = hasCollar;
             SleeveLength = sleeveLength;
         }
 
+        //Method used to display PoloShirt details
         public void PoloShirtDetails()
         {
             base.DisplayInformation();
@@ -52,6 +56,7 @@ namespace Ubod_InheritanceUserInput
     //Another derived class Tshirt inherits Shirt
     class Tshirt : Shirt
     {
+        //Additional property for the Tshirt Class
         public bool CloseNeck { get; set; }
         public bool VNeck { get; set; }
 
@@ -61,6 +66,7 @@ namespace Ubod_InheritanceUserInput
             VNeck = vNeck;
         }
 
+        //Method used to display Tshirt details
         public void TShirtDetails()
         {
             base.DisplayInformation();
