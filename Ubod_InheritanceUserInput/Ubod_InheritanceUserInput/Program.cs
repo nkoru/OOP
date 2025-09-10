@@ -36,9 +36,10 @@ namespace Ubod_InheritanceUserInput
                 Console.Write("Enter sleeve lngth of Polo Shirt? (short/long): ");
                 bool sleeveLength = Console.ReadLine().ToLower() == "short";
 
+                //Create an instance of the PoloShirt Class
                 PoloShirt myPolo = new PoloShirt(brand, size, hasCollar, sleeveLength);
                 Console.WriteLine("\nPolo Shirt Details");
-                myPolo.PoloShirtDetails();
+                myPolo.PoloShirtDetails(); //Display PoloShirt Information
             }
 
             if (choice == "2")
@@ -58,11 +59,13 @@ namespace Ubod_InheritanceUserInput
                 Console.Write("Enter sleeve lngth of Polo Shirt? (yes/no): ");
                 bool vNeck = Console.ReadLine().ToLower() == "true";
 
+                //Create an instance of the TShirt Class
                 Tshirt myTshirt = new Tshirt (brand, size, closeNeck, vNeck);
                 Console.WriteLine("\nTShirt Details");
-                myTshirt.TShirtDetails();
+                myTshirt.TShirtDetails(); //Display TShirt Information
             }
 
+            //Prompt for user 
             Console.Write("\nDo you want to enter another Polo Shirt? (y/n): ");
             char answer = Console.ReadKey().KeyChar;
 
