@@ -1,0 +1,8 @@
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\obj\Debug\InheritanceWithComputationUserInput.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\obj\Debug\InheritanceWithComputationUserInput.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\bin\Debug\InheritanceWithComputationUserInput.exe.config
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\bin\Debug\InheritanceWithComputationUserInput.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\bin\Debug\InheritanceWithComputationUserInput.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\obj\Debug\InheritanceWithComputationUserInput.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\obj\Debug\InheritanceWithComputationUserInput.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWithComputationUserInput\InheritanceWithComputationUserInput\obj\Debug\InheritanceWithComputationUserInput.exe.config
