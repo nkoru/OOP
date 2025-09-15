@@ -1,0 +1,8 @@
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\bin\Debug\InheritanceWIthComputation.exe.config
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\bin\Debug\InheritanceWIthComputation.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\bin\Debug\InheritanceWIthComputation.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\obj\Debug\InheritanceWIthComputation.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\obj\Debug\InheritanceWIthComputation.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\obj\Debug\InheritanceWIthComputation.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\obj\Debug\InheritanceWIthComputation.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\InheritanceWIthComputation\InheritanceWIthComputation\obj\Debug\InheritanceWIthComputation.exe.config
