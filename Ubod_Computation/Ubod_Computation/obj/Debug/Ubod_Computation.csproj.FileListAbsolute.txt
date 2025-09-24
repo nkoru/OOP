@@ -1,0 +1,8 @@
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\bin\Debug\Ubod_Computation.exe.config
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\bin\Debug\Ubod_Computation.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\bin\Debug\Ubod_Computation.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\obj\Debug\Ubod_Computation.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\obj\Debug\Ubod_Computation.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\obj\Debug\Ubod_Computation.exe
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\obj\Debug\Ubod_Computation.pdb
+C:\Users\ACT-STUDENT\source\repos\OOP\Ubod_Computation\Ubod_Computation\obj\Debug\Ubod_Computation.exe.config
