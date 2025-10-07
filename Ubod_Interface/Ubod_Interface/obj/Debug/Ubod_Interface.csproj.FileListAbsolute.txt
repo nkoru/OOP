@@ -1,0 +1,8 @@
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\bin\Debug\Ubod_Interface.exe.config
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\bin\Debug\Ubod_Interface.exe
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\bin\Debug\Ubod_Interface.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\obj\Debug\Ubod_Interface.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\obj\Debug\Ubod_Interface.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\obj\Debug\Ubod_Interface.exe
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\obj\Debug\Ubod_Interface.pdb
+C:\Users\niccu\source\repos\OOP\Ubod_Interface\Ubod_Interface\obj\Debug\Ubod_Interface.exe.config
