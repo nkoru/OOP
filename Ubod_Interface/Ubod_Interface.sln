@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubod_Interface", "Ubod_Interface\Ubod_Interface.csproj", "{19500429-1CE1-4A8A-8E8E-80E66C576679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19500429-1CE1-4A8A-8E8E-80E66C576679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19500429-1CE1-4A8A-8E8E-80E66C576679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19500429-1CE1-4A8A-8E8E-80E66C576679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19500429-1CE1-4A8A-8E8E-80E66C576679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E526E47-E65C-4EAC-BE25-3D7636E251ED}
+	EndGlobalSection
+EndGlobal
