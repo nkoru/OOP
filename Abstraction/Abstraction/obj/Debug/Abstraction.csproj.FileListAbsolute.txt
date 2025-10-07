@@ -1,0 +1,8 @@
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\bin\Debug\Abstraction.exe.config
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\obj\Debug\Abstraction.csproj.AssemblyReference.cache
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\obj\Debug\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\obj\Debug\Abstraction.exe
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\obj\Debug\Abstraction.pdb
+C:\Users\niccu\source\repos\OOP\Abstraction\Abstraction\obj\Debug\Abstraction.exe.config
