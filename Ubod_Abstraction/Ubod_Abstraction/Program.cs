@@ -10,14 +10,17 @@ namespace Ubod_Abstraction
     {
         static void Main(string[] args)
         {
-            PoloShirt polo = new PoloShirt("Bench", "Blue", 799.00, "Cotton");
-            TShirt tshirt = new TShirt("Penshoppe", "White", 499.00, "Graphic Print");
+            // Create instances of DressPants and CasualPants
+            DressPants dress = new DressPants("Armani", "Charcoal", 3200.00, "Wool Blend");
+            CasualPants casual = new CasualPants("Uniqlo", "Khaki", 1200.00, "Relaxed Fit");
 
-            polo.DisplayInfo();
-            Console.WriteLine($"Discounted Price (20% off): ₱{polo.DiscountPrice(20)}\n");
+            dress.DisplayInfo();
+            dress.DiscountPrice(25);
 
-            tshirt.DisplayInfo();
-            Console.WriteLine($"Discounted Price (15% off): ₱{tshirt.DiscountPrice(15)}");
+            casual.DisplayInfo();
+            casual.DiscountPrice(10);
+    
+            Console.ReadKey();
         }
     }
 }
