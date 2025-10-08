@@ -6,71 +6,81 @@ using System.Threading.Tasks;
 
 namespace Ubod_Abstraction
 {
-    abstract class Shirt // Abstract base class
+    // Abstract base class for Pants - demonstrates abstraction by defining common properties and methods
+    abstract class Pants
     {
+        // Common properties for all pants types
         public string Brand { get; set; }
         public string Color { get; set; }
         public double Price { get; set; }
-
-        // Parameterized constructor
-        public Shirt(string brand, string color, double price)
+        // Parameterized constructor for base class
+        public Pants(string brand, string color, double price)
         {
             Brand = brand;
             Color = color;
             Price = price;
         }
 
-        // Abstract method
+        // Abstract method - must be implemented by derived classes for unique display
         public abstract void DisplayInfo();
-
-        // Concrete method
-        public double DiscountPrice(double discountPercent)
-        {
-            return Price - (Price * (discountPercent / 100));
-        }
     }
 
-    // Derived class 1
-    class PoloShirt : Shirt
+
+    class DressPants : Pants
     {
         public string Fabric { get; set; }
 
-        // Parameterized constructor that calls base constructor
-        public PoloShirt(string brand, string color, double price, string fabric)
-            : base(brand, color, price)
+        public DressPants(string brand, string color, double price, string fabric) : base(brand, color, price)
         {
             Fabric = fabric;
         }
 
         public override void DisplayInfo()
         {
-            Console.WriteLine("Polo Shirt Details:");
+            Console.WriteLine("=== Dress Pants Information ===\n");
+            Console.WriteLine("Dress Pants Details (Formal Wear):");
             Console.WriteLine($"Brand: {Brand}");
             Console.WriteLine($"Color: {Color}");
             Console.WriteLine($"Fabric: {Fabric}");
-            Console.WriteLine($"Price: ₱{Price}");
+            Console.WriteLine($"Price: Php {Price}\n");
+        }
+
+        public void DiscountPrice(double discountPercent)
+        {
+            double discount = Price * (discountPercent / 100);
+            Price -= discount;
+
+            Console.WriteLine($"Dresspants '{Brand}' discounted by {discountPercent}%");
+            Console.WriteLine($"Discount Amount: Php {Price:F2}\n");
         }
     }
 
-    // Derived class 2
-    class TShirt : Shirt
+    class CasualPants : Pants
     {
-        public string Design { get; set; }
+        public string FitType { get; set; }
 
-        // Parameterized constructor that calls base constructor
-        public TShirt(string brand, string color, double price, string design)
-            : base(brand, color, price)
+        public CasualPants(string brand, string color, double price, string fitType) : base(brand, color, price)
         {
-            Design = design;
+            FitType = fitType;
         }
 
         public override void DisplayInfo()
         {
-            Console.WriteLine("T-Shirt Details:");
+            Console.WriteLine("=== Casual Pants Information ===\n");
+            Console.WriteLine("Casual Pants Details (Everyday Wear):");
             Console.WriteLine($"Brand: {Brand}");
             Console.WriteLine($"Color: {Color}");
-            Console.WriteLine($"Design: {Design}");
-            Console.WriteLine($"Price: ₱{Price}");
+            Console.WriteLine($"Fit Type: {FitType}");
+            Console.WriteLine($"Price: Php {Price}\n");
+        }
+
+        public void DiscountPrice(double discountPercent)
+        {
+            double discount = Price * (discountPercent / 100);
+            Price -= discount;
+
+            Console.WriteLine($"Casualpants '{Brand}' discounted by {discountPercent}%");
+            Console.WriteLine($"Discount Amount: Php {Price:F2}\n");
         }
     }
 }
