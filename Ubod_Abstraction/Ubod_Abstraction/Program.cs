@@ -10,17 +10,22 @@ namespace Ubod_Abstraction
     {
         static void Main(string[] args)
         {
-            // Create instances of DressPants and CasualPants
-            DressPants dress = new DressPants("Armani", "Charcoal", 3200.00, "Wool Blend");
-            CasualPants casual = new CasualPants("Uniqlo", "Khaki", 1200.00, "Relaxed Fit");
+            // Create objects from derived classes
+            SchoolBag sBag = new SchoolBag("JanSport", "Blue", 1500, 4);
+            TravelBag tBag = new TravelBag("Samsonite", "Black", 4500, 35);
 
-            dress.DisplayInfo();
-            dress.DiscountPrice(25);
+            // Demonstrate polymorphism using overridden methods
+            sBag.DisplayDetails();
+            sBag.CalculateDiscount(10);
+            sBag.Carry();
 
-            casual.DisplayInfo();
-            casual.DiscountPrice(10);
-    
-            Console.ReadKey();
+            Console.WriteLine("-------------------------------");
+
+            tBag.DisplayDetails();
+            tBag.CalculateDiscount(15);
+            tBag.Carry();
+
+            Console.ReadLine();
         }
     }
 }
