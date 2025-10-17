@@ -5,82 +5,94 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Ubod_Abstraction
-{
-    // Abstract base class for Pants - demonstrates abstraction by defining common properties and methods
-    abstract class Pants
+{   
+    // Base abstract class
+    abstract class Bag
     {
-        // Common properties for all pants types
+        // Common Properties
         public string Brand { get; set; }
         public string Color { get; set; }
         public double Price { get; set; }
-        // Parameterized constructor for base class
-        public Pants(string brand, string color, double price)
+
+        // Constructor
+        public Bag(string brand, string color, double price)
         {
             Brand = brand;
             Color = color;
             Price = price;
         }
 
-        // Abstract method - must be implemented by derived classes for unique display
-        public abstract void DisplayInfo();
+        // Abstract Methods (must be implemented by derived classes)
+        public abstract void DisplayDetails();
+
+        public abstract void CalculateDiscount(double percent);
+
+        // Concrete Method (common action for all bags)
+        public void Carry()
+        {
+            Console.WriteLine("Strap it up—your bag is coming with you!");
+        }
     }
 
-
-    class DressPants : Pants
+    // DERIVED CLASS 1 - SCHOOLBAG
+    class SchoolBag : Bag
     {
-        public string Fabric { get; set; }
+        // Additional Property
+        public int NumberOfCompartments { get; set; }
 
-        public DressPants(string brand, string color, double price, string fabric) : base(brand, color, price)
+        // Constructor
+        public SchoolBag(string brand, string color, double price, int compartments)
+            : base(brand, color, price)
         {
-            Fabric = fabric;
+            NumberOfCompartments = compartments;
         }
 
-        public override void DisplayInfo()
+        // Overridden Methods
+        public override void DisplayDetails()
         {
-            Console.WriteLine("=== Dress Pants Information ===\n");
-            Console.WriteLine("Dress Pants Details (Formal Wear):");
+            Console.WriteLine("SCHOOL BAG DETAILS:");
             Console.WriteLine($"Brand: {Brand}");
             Console.WriteLine($"Color: {Color}");
-            Console.WriteLine($"Fabric: {Fabric}");
-            Console.WriteLine($"Price: Php {Price}\n");
+            Console.WriteLine($"Price: ₱{Price}");
+            Console.WriteLine($"Compartments: {NumberOfCompartments}");
         }
 
-        public void DiscountPrice(double discountPercent)
+        public override void CalculateDiscount(double percent)
         {
-            double discount = Price * (discountPercent / 100);
-            Price -= discount;
-
-            Console.WriteLine($"Dresspants '{Brand}' discounted by {discountPercent}%");
-            Console.WriteLine($"Discount Amount: Php {Price:F2}\n");
+            double discount = Price * (percent / 100);
+            double newPrice = Price - discount;
+            Console.WriteLine($"Discounted Price (School Bag): ₱{newPrice}");
         }
     }
 
-    class CasualPants : Pants
+    // DERIVED CLASS 2 - TRAVELBAG
+    class TravelBag : Bag
     {
-        public string FitType { get; set; }
+        // Additional Property
+        public double Capacity { get; set; }
 
-        public CasualPants(string brand, string color, double price, string fitType) : base(brand, color, price)
+        // Constructor
+        public TravelBag(string brand, string color, double price, double capacity)
+            : base(brand, color, price)
         {
-            FitType = fitType;
+            Capacity = capacity;
         }
 
-        public override void DisplayInfo()
+        // Overridden Methods
+        public override void DisplayDetails()
         {
-            Console.WriteLine("=== Casual Pants Information ===\n");
-            Console.WriteLine("Casual Pants Details (Everyday Wear):");
+            Console.WriteLine("\nTRAVEL BAG DETAILS:");
             Console.WriteLine($"Brand: {Brand}");
             Console.WriteLine($"Color: {Color}");
-            Console.WriteLine($"Fit Type: {FitType}");
-            Console.WriteLine($"Price: Php {Price}\n");
+            Console.WriteLine($"Price: ₱{Price}");
+            Console.WriteLine($"Capacity: {Capacity} liters");
         }
 
-        public void DiscountPrice(double discountPercent)
+        public override void CalculateDiscount(double percent)
         {
-            double discount = Price * (discountPercent / 100);
-            Price -= discount;
-
-            Console.WriteLine($"Casualpants '{Brand}' discounted by {discountPercent}%");
-            Console.WriteLine($"Discount Amount: Php {Price:F2}\n");
+            // Different discount style for TravelBag
+            double discount = (Price * percent / 100) + 100;
+            double newPrice = Price - discount;
+            Console.WriteLine($"Discounted Price (Travel Bag): ₱{newPrice}");
         }
     }
-}
